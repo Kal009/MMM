@@ -100,10 +100,21 @@
         <plugin>
           <artifactId>maven-compiler-plugin</artifactId>
           <version>3.7.0</version>
+          <configuration>
+            <source>1.8</source>
+              <target>1.8</target>
+          </configuration>
+
+
         </plugin>
         <plugin>
           <artifactId>maven-surefire-plugin</artifactId>
           <version>2.20.1</version>
+          <configuration>
+            <includes>
+              <excludes>**/*Runner.java</excludes>
+            </includes>
+          </configuration>
         </plugin>
         <plugin>
           <artifactId>maven-jar-plugin</artifactId>

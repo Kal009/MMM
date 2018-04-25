@@ -1,4 +1,4 @@
-package com.mymeds.strat;
+package com.mymeds;
 
 
 import cucumber.api.CucumberOptions;
@@ -7,7 +7,7 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = "src/test/Resources/feature/cucumber.feature"
+        features = "."
 )
 public class Runner {
 }

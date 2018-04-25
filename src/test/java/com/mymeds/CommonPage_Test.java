@@ -1,4 +1,6 @@
 package com.mymeds;
 
-public class CommonPage_Test {
+import com.mymeds.base.BrowserFactory;
+
+public class CommonPage_Test extends BrowserFactory {
 }

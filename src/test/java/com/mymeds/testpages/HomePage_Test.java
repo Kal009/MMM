@@ -11,18 +11,22 @@ public class HomePage_Test extends BrowserFactory {
 
     HomePage hp = new HomePage();
 
-    @Given("^I am on home page$")
-    public void i_am_on_home_page() throws Throwable {
+    @Given("^i me on home page$")
+    public void iMeOnHomePage() throws Throwable {
         hp.homePageLink();
+        System.out.println("start");
     }
 
-    @When("^I click on reportum link$")
-    public void i_click_on_reportum_link() throws Throwable {
-
+    @When("^i click on home page$")
+    public void iClickOnHomePage() throws Throwable {
+        System.out.println("when");
     }
 
-    @Then("^I should navigate to reportum page$")
-    public void i_should_navigate_to_reportum_page() throws Throwable {
-
+    @Then("^i should navigate to home page$")
+    public void iShouldNavigateToHomePage() throws Throwable {
+        System.out.println("then");
     }
+
+
+
 }
