@@ -1,0 +1,36 @@
+Feature: login fuctinality
+
+  Scenario: homepage fuctionality       [90m# src/test/resources/cucumber.feature:3[0m
+    [32mGiven [0m[32mi me on home page[0m             [90m# HomePage_Test.iMeOnHomePage()[0m
+    [32mWhen [0m[32mi click on home page[0m           [90m# HomePage_Test.iClickOnHomePage()[0m
+    [32mThen [0m[32mi should navigate to home page[0m [90m# HomePage_Test.iShouldNavigateToHomePage()[0m
+
+  Scenario Outline: register new user            [90m# src/test/resources/cucumber.feature:8[0m
+    [36mGiven [0m[36mI am on Loginpage[0m
+    [36mWhen [0m[36mI click on registerlink[0m
+    [36mThen [0m[36mI should navigate to Registerpage[0m
+    [36mWhen [0m[36mI select tital[0m
+    [36mAnd [0m[36mI enter firstname as "<Fname>"[0m
+    [36mAnd [0m[36mI enter lastname as "<Lname>"[0m
+    [36mAnd [0m[36mI enter email as "<email>"[0m
+    [36mAnd [0m[36mI enter password as "<password>"[0m
+    [36mAnd [0m[36mI enter confirm password as "<password>"[0m
+    [36mAnd [0m[36mI accept terms and codition[0m
+    [36mAnd [0m[36mI click on submit botton[0m
+    [36mThen [0m[36mI should successfully creat account[0m
+
+    Examples: 
+
+  Scenario Outline: register new user                  [90m# src/test/resources/cucumber.feature:24[0m
+    [32mGiven [0m[32mI am on Loginpage[0m                            [90m# RegisterPageTest.iAmOnLoginpage()[0m
+    [32mWhen [0m[32mI click on registerlink[0m                       [90m# RegisterPageTest.iClickOnRegisterlink()[0m
+    [32mThen [0m[32mI should navigate to Registerpage[0m             [90m# RegisterPageTest.iShouldNavigateToRegisterpage()[0m
+    [32mWhen [0m[32mI select tital[0m                                [90m# RegisterPageTest.iSelectTital()[0m
+    [32mAnd [0m[32mI enter firstname as "[0m[32m[1mvishal[0m[32m"[0m                  [90m# RegisterPageTest.iEnterFirstnameAs(String)[0m
+    [32mAnd [0m[32mI enter lastname as "[0m[32m[1mghinaiya[0m[32m"[0m                 [90m# RegisterPageTest.iEnterLastnameAs(String)[0m
+    [32mAnd [0m[32mI enter email as "[0m[32m[1mvishal_ghinaiya@hotmail.com[0m[32m"[0m [90m# RegisterPageTest.iEnterEmailAs(String)[0m
+    [32mAnd [0m[32mI enter password as "[0m[32m[1msomnath09[0m[32m"[0m                [90m# RegisterPageTest.iEnterPasswordAs(String)[0m
+    [32mAnd [0m[32mI enter confirm password as "[0m[32m[1msomnath09[0m[32m"[0m        [90m# RegisterPageTest.iEnterConfirmPasswordAs(String)[0m
+    [32mAnd [0m[32mI accept terms and codition[0m                    [90m# RegisterPageTest.iAcceptTermsAndCodition()[0m
+    [32mAnd [0m[32mI click on submit botton[0m                       [90m# RegisterPageTest.iClickOnSubmitBotton()[0m
+    [32mThen [0m[32mI should successfully creat account[0m           [90m# RegisterPageTest.iShouldSuccessfullyCreatAccount()[0m

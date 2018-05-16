@@ -1,0 +1,301 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 19977653370,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.startbrowser()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "homepage fuctionality",
+        "description": "",
+        "id": "login-fuctinality;homepage-fuctionality",
+        "after": [
+          {
+            "result": {
+              "duration": 3843633635,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 304615173,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "i me on home page",
+            "match": {
+              "location": "HomePage_Test.iMeOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4848392910,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "i click on home page",
+            "match": {
+              "location": "HomePage_Test.iClickOnHomePage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 14944966,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "i should navigate to home page",
+            "match": {
+              "location": "HomePage_Test.iShouldNavigateToHomePage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 13164554740,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.startbrowser()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "register new user",
+        "description": "",
+        "id": "login-fuctinality;register-new-user;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 5085566884,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9770165594,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I am on Loginpage",
+            "match": {
+              "location": "RegisterPageTest.iAmOnLoginpage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 389733534,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on registerlink",
+            "match": {
+              "location": "RegisterPageTest.iClickOnRegisterlink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2154331074,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should navigate to Registerpage",
+            "match": {
+              "location": "RegisterPageTest.iShouldNavigateToRegisterpage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3354848775,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I select tital",
+            "match": {
+              "location": "RegisterPageTest.iSelectTital()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1552784644,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I enter firstname as \"vishal\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "vishal",
+                  "offset": 22
+                }
+              ],
+              "location": "RegisterPageTest.iEnterFirstnameAs(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 319036177,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I enter lastname as \"ghinaiya\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ghinaiya",
+                  "offset": 21
+                }
+              ],
+              "location": "RegisterPageTest.iEnterLastnameAs(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 670857676,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I enter email as \"vishal_ghinaiya@hotmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "vishal_ghinaiya@hotmail.com",
+                  "offset": 18
+                }
+              ],
+              "location": "RegisterPageTest.iEnterEmailAs(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 337256802,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I enter password as \"somnath09\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "somnath09",
+                  "offset": 21
+                }
+              ],
+              "location": "RegisterPageTest.iEnterPasswordAs(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 337353794,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I enter confirm password as \"somnath09\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "somnath09",
+                  "offset": 29
+                }
+              ],
+              "location": "RegisterPageTest.iEnterConfirmPasswordAs(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 400305140,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I accept terms and codition",
+            "match": {
+              "location": "RegisterPageTest.iAcceptTermsAndCodition()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6568320798,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I click on submit botton",
+            "match": {
+              "location": "RegisterPageTest.iClickOnSubmitBotton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 216320711,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I should successfully creat account",
+            "match": {
+              "location": "RegisterPageTest.iShouldSuccessfullyCreatAccount()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "login fuctinality",
+    "description": "",
+    "id": "login-fuctinality",
+    "keyword": "Feature",
+    "uri": "src/test/resources/cucumber.feature"
+  }
+]
