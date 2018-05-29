@@ -7,7 +7,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 19977653370,
+  "duration": 13403966002,
   "status": "passed"
 });
 formatter.scenario({
@@ -37,25 +37,25 @@ formatter.match({
   "location": "HomePage_Test.iMeOnHomePage()"
 });
 formatter.result({
-  "duration": 304615173,
+  "duration": 340882638,
   "status": "passed"
 });
 formatter.match({
   "location": "HomePage_Test.iClickOnHomePage()"
 });
 formatter.result({
-  "duration": 4848392910,
+  "duration": 3666806425,
   "status": "passed"
 });
 formatter.match({
   "location": "HomePage_Test.iShouldNavigateToHomePage()"
 });
 formatter.result({
-  "duration": 14944966,
+  "duration": 389811312,
   "status": "passed"
 });
 formatter.after({
-  "duration": 3843633635,
+  "duration": 1371379731,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -156,7 +156,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 13164554740,
+  "duration": 7819161536,
   "status": "passed"
 });
 formatter.scenario({
@@ -246,28 +246,28 @@ formatter.match({
   "location": "RegisterPageTest.iAmOnLoginpage()"
 });
 formatter.result({
-  "duration": 9770165594,
+  "duration": 7717364462,
   "status": "passed"
 });
 formatter.match({
   "location": "RegisterPageTest.iClickOnRegisterlink()"
 });
 formatter.result({
-  "duration": 389733534,
+  "duration": 3517285637,
   "status": "passed"
 });
 formatter.match({
   "location": "RegisterPageTest.iShouldNavigateToRegisterpage()"
 });
 formatter.result({
-  "duration": 2154331074,
+  "duration": 248984918,
   "status": "passed"
 });
 formatter.match({
   "location": "RegisterPageTest.iSelectTital()"
 });
 formatter.result({
-  "duration": 3354848775,
+  "duration": 1402789268,
   "status": "passed"
 });
 formatter.match({
@@ -280,7 +280,7 @@ formatter.match({
   "location": "RegisterPageTest.iEnterFirstnameAs(String)"
 });
 formatter.result({
-  "duration": 1552784644,
+  "duration": 1524327059,
   "status": "passed"
 });
 formatter.match({
@@ -293,7 +293,7 @@ formatter.match({
   "location": "RegisterPageTest.iEnterLastnameAs(String)"
 });
 formatter.result({
-  "duration": 319036177,
+  "duration": 390964953,
   "status": "passed"
 });
 formatter.match({
@@ -306,7 +306,7 @@ formatter.match({
   "location": "RegisterPageTest.iEnterEmailAs(String)"
 });
 formatter.result({
-  "duration": 670857676,
+  "duration": 985233078,
   "status": "passed"
 });
 formatter.match({
@@ -319,7 +319,7 @@ formatter.match({
   "location": "RegisterPageTest.iEnterPasswordAs(String)"
 });
 formatter.result({
-  "duration": 337256802,
+  "duration": 487029228,
   "status": "passed"
 });
 formatter.match({
@@ -332,32 +332,32 @@ formatter.match({
   "location": "RegisterPageTest.iEnterConfirmPasswordAs(String)"
 });
 formatter.result({
-  "duration": 337353794,
+  "duration": 412346326,
   "status": "passed"
 });
 formatter.match({
   "location": "RegisterPageTest.iAcceptTermsAndCodition()"
 });
 formatter.result({
-  "duration": 400305140,
+  "duration": 413661109,
   "status": "passed"
 });
 formatter.match({
   "location": "RegisterPageTest.iClickOnSubmitBotton()"
 });
 formatter.result({
-  "duration": 6568320798,
+  "duration": 6026860145,
   "status": "passed"
 });
 formatter.match({
   "location": "RegisterPageTest.iShouldSuccessfullyCreatAccount()"
 });
 formatter.result({
-  "duration": 216320711,
+  "duration": 446944799,
   "status": "passed"
 });
 formatter.after({
-  "duration": 5085566884,
+  "duration": 1592013700,
   "status": "passed"
 });
 });

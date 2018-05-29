@@ -23,7 +23,7 @@ public class BrowserFactory {
 
     private String browser = (System.getProperty("browser") == null) ? "" : System.getProperty("browser");
 
-    public String url = "http://www.boots.com/";
+    public String url = "http://www.boots.com";
 
     public String nodeURL;
 

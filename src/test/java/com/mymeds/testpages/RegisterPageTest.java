@@ -4,6 +4,7 @@ import com.mymeds.base.BrowserFactory;
 import com.mymeds.pages.HomePage;
 import com.mymeds.pages.LoginPage;
 import com.mymeds.pages.RegisterPage;
+import com.mymeds.utility.Screenshots;
 import cucumber.api.PendingException;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
@@ -18,6 +19,7 @@ public class RegisterPageTest extends BrowserFactory {
     RegisterPage rp = new RegisterPage();
 
     String newmail = BrowserFactory.newemail();
+    String scr = "scr1";
 
 
     @Given("^I am on Loginpage$")
@@ -82,5 +84,6 @@ public class RegisterPageTest extends BrowserFactory {
     public void iShouldSuccessfullyCreatAccount() throws Throwable {
        String confrimation = rp.confirmation();
        Assert.assertEquals(confrimation,"my account summary");
+        Screenshots.takeScreenshot(scr);
     }
 }
